@@ -1,6 +1,7 @@
 import Login from "../Components/Login";
 import NotFound from "../Components/NotFound";
 import Home from "../Components/Home";
+import Sign from "../Components/Sign";
 
 
 export default [
@@ -15,5 +16,9 @@ export default [
 	{
 		path:'/login',
 		element:<Login/>
+	},
+	{
+		path:'/sign',
+		element:<Sign/>
 	},
 ]
